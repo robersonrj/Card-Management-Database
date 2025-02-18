@@ -14,6 +14,6 @@ Upon program launch, the database utilizes this .csv file to create a Pandas dat
 
   - The Card_Search_Functions.py file allows the user to search the dataframe for specific cards or card traits, and displays the results. This file also includes input validation and error messages for invalid entries. 
 
-  - The Shadowverse Master List.csv is the original excel file that includes all of the card information. This file may contain errors or invalid formatting.
+  - The Shadowverse Master List.csv is the original excel file that includes all of the card information. This file may contain errors or invalid formatting. There are many empty rows in addition to the cards and their information. This is to allow for additional cards of each type to be included in the data, while still retaining formatting.
 
   - The Cleaned Shadowverse Master List.csv is the file that is updated in the main program, and contains the cleaned information that will be used in the dataframe display. 
